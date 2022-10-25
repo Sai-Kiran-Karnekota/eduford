@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website for University</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="eduford_img/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">COURSE</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>World's Biggest University</h1>
+      <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> Javascript and you are good to go.
+      </p>
+      <a class="hero-btn" href="">Visit us to know more</a>
+    </div>
+  </section>
+
+  <section class="course">
+    <h1>Courses We Offerr</h1>
+    <p>
+    Imagine you can read text here, and you regret reading this.</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>
+          Nothing to see here it's just a text. Please stop wasting your time and go do some useful things which will help. If you still read till this i don't know what to say. May be read again.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>
+          Nothing to see here it's just a text. Please stop wasting your time and go do some useful things which will help. If you still read till this i don't know what to say. May be read again.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>
+          Nothing to see here it's just a text. Please stop wasting your time and go do some useful things which will help. If you still read till this i don't know what to say. May be read again.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>
+      Imagine you can read text here, and you regret reading this.</p>
+      
+    <div class="row">
+      <div class="campus-col">
+        <img src="eduford_img/london.png" alt="London">
+        <div class="layer">
+          <h3>London</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="eduford_img/newyork.png" alt="London">
+        <div class="layer">
+          <h3>New York</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="eduford_img/washington.png" alt="London">
+        <div class="layer">
+          <h3>Washington</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+      navLinks.style.visibility = "";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+      navLinks.style.visibility = "hidden";
+    }
+ 
+  </script>
+
+</body>
+</html>
